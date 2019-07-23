@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML5 шаблон</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+    <link href="css/style.css" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  </head>
+  <body>
+      <div id="topmenu">
+          <nav>
+              <ul>
+                  <li id="home">
+                      <a href="#">Home</a>
+                  </li>
+                  <li id="gallery">
+                      <a href="#">Gallery</a>
+                  </li>
+                  <li id="members">
+                      <a href="#">Members</a>
+                  </li>
+                  <li id="logout">
+                      <a href="#">Logout</a>
+                  </li>
+              </ul>
+          </nav>
+      </div>
+      <div class="clear"></div>
+      <div id="content">
+          <div id="form-upload">
+             <h1>Please select an image from your computer</h1>
+             <form name="upload" action="#" method="post" enctype="multipart/form-data">
+                 <div class="file_form">
+                     <div class="shadow"></div>
+                     <div class="button">Browse</div>
+                     <input type="file" name="file">
+                 </div>
+                 <div>
+                     <input type="submit" name="upload" value="Upload image">
+                 </div>
+             </form> 
+          </div>
+          <div class="clear"></div>
+      </div>
+  </body>
+</html>

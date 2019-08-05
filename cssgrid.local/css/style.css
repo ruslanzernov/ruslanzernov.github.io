@@ -91,6 +91,7 @@ header .title h2, p {
 
     header .title {
         padding: 1.25em 5px 1.25em 5px;
+        margin-left: -10px;
     }
 
     header .title h2 {

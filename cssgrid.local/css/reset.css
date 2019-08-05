@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+header, aside, area, article, section, content, footer, span {
+    margin: 0;
+    padding: 0;
+}
+
+table, tr, td, th {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
